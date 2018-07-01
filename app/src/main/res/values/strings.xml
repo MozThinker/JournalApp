@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Journal App</string>
+    <string name="title">Title</string>
+    <string name="save">Save</string>
+    <string name="add_journal_activity">Add Journal</string>
+    <string name="update_button">Update</string>
+    <string name="splash_text">Your Journal Starts Now</string>
+    <string name="update">Update</string>
+    <string name="edit">Edit</string>
+    <string name="my_diary">My Diary</string>
+    <string name="user_name">vazio</string>
+    <string name="user_id">vazio</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_entry">Entry</string>
+    <string name="mood_happy">happy</string>
+    <string name="mood_ungry">ungry</string>
+    <string name="mood_down">down</string>
+    <string name="mood_calm">calm</string>
+    <string name="mood_relaxed">relaxed</string>
+    <string name="mood_sad">sad</string>
+    <string name="edit_entry">Edit Entry</string>
+    <string name="mood">How do you feel today?</string>
+    <string name="empty_field">Please make sure to fill all the fields</string>
+    <string name="submited">Entry Submited Successful</string>
+    <string name="login">Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Logut</string>
+    <string name="signout">You\'ve Signout</string>
+
+</resources>

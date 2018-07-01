@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:padding="16dp"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:textSize="36sp"
+
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:id="@+id/tv_journal_details_title"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:background="@color/colorPrimaryLight"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_margin="8dp"
+                    android:minLines="10"
+                    android:textSize="20sp"
+                    android:id="@+id/tv_journal_details_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:tint="@android:color/white"
+        android:src="@drawable/ic_edit_black_24dp"
+        android:id="@+id/fab_journal_details_edit"/>
+
+</FrameLayout>

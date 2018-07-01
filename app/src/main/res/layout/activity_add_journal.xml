@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_add_journal"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:hint="@string/hint_title"
+                android:maxLines="2"
+                android:id="@+id/tv_add_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:hint="@string/hint_entry"
+                android:maxLines="4"
+                android:id="@+id/tv_add_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:paddingTop="16dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="@string/mood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/rb_mod_happy"
+                android:textColor="@color/colorMoodHappy"
+                android:text="@string/mood_happy"
+                android:onClick="onRadioButtonClicked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/rb_mod_ungry"
+                android:textColor="@color/colorMoodUngry"
+                android:text="@string/mood_ungry"
+                android:onClick="onRadioButtonClicked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/rb_mod_down"
+                android:textColor="@color/colorMoodDown"
+                android:text="@string/mood_down"
+                android:onClick="onRadioButtonClicked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/rb_mod_calm"
+                android:textColor="@color/colorMoodCalm"
+                android:text="@string/mood_calm"
+                android:onClick="onRadioButtonClicked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/rb_mod_relaxed"
+                android:textColor="@color/colorMoodRelaxed"
+                android:text="@string/mood_relaxed"
+                android:onClick="onRadioButtonClicked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/rb_mod_sad"
+                android:textColor="@color/colorMoodSad"
+                android:text="@string/mood_sad"
+                android:onClick="onRadioButtonClicked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+        </RadioGroup>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_gravity="center"
+        android:text="@string/save"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
